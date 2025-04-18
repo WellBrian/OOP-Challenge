@@ -37,18 +37,35 @@ Create a class called `Pet` with the following:
 
 ---
 
-## ✅ Sample Output
+## ✅ Output
 
 ```bash
-Creating pet: Max
-Max is eating...
-Max is playing...
-Max is sleeping...
-Max's current status:
-Hunger: 2
-Energy: 8
-Happiness: 9
-Tricks: ['roll over', 'play dead']
+Fluffy's Status:
+Hunger: 5/10
+Energy: 5/10
+Happiness: 5/10
+No tricks known.
+Fluffy is eating. Hunger decreased, happiness increased!
+Fluffy is playing. Happiness increased, energy decreased!
+Fluffy is sleeping. Energy increased!
+
+Fluffy's Status:
+Hunger: 3/10
+Energy: 8/10
+Happiness: 8/10
+No tricks known.
+Fluffy learned a new trick: Sit!
+Fluffy learned a new trick: Roll over!
+Fluffy is too tired to train right now.
+Fluffy knows these tricks:
+1. Sit
+2. Roll over
+
+Fluffy's Status:
+Hunger: 3/10
+Energy: 2/10
+Happiness: 10/10
+Tricks known: 2
 
 
 ### 💡 Tips
